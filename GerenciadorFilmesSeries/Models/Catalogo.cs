@@ -13,5 +13,14 @@ namespace GerenciadorFilmesSeries.Models
             this.Filmes.Add(filme);
             return this;
         }
+        public override string ToString()
+        {
+            string result = "";
+            foreach(Filme filme in Filmes)
+            {
+                result += $"Titulo: {filme.Nome}, Tema: {filme.Tema.Nome}\n";
+            }
+            return result;
+        }
     }
 }

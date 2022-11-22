@@ -23,7 +23,6 @@ namespace GerenciadorFilmesSeries
             Catalogo catalogo = new Catalogo();
             catalogo.adiciona(mp).adiciona(cd).adiciona(ac).adiciona(ir);
             Console.WriteLine("Catalogo completo:");
-            Console.WriteLine("Catalogo completo:");
             Console.WriteLine(catalogo);
             //Console.WriteLine("Filmes e Series com Seu Jorge:");
             //Console.WriteLine(catalogo.filtra("Jorge"));

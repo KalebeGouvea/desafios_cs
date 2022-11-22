@@ -1,0 +1,15 @@
+D:\meus_projetos\desafios_cs\GerenciadorFilmesSeries\bin\Debug\net6.0\GerenciadorFilmesSeries.exe
+D:\meus_projetos\desafios_cs\GerenciadorFilmesSeries\bin\Debug\net6.0\GerenciadorFilmesSeries.deps.json
+D:\meus_projetos\desafios_cs\GerenciadorFilmesSeries\bin\Debug\net6.0\GerenciadorFilmesSeries.runtimeconfig.json
+D:\meus_projetos\desafios_cs\GerenciadorFilmesSeries\bin\Debug\net6.0\GerenciadorFilmesSeries.dll
+D:\meus_projetos\desafios_cs\GerenciadorFilmesSeries\bin\Debug\net6.0\ref\GerenciadorFilmesSeries.dll
+D:\meus_projetos\desafios_cs\GerenciadorFilmesSeries\bin\Debug\net6.0\GerenciadorFilmesSeries.pdb
+D:\meus_projetos\desafios_cs\GerenciadorFilmesSeries\obj\Debug\net6.0\GerenciadorFilmesSeries.csproj.AssemblyReference.cache
+D:\meus_projetos\desafios_cs\GerenciadorFilmesSeries\obj\Debug\net6.0\GerenciadorFilmesSeries.GeneratedMSBuildEditorConfig.editorconfig
+D:\meus_projetos\desafios_cs\GerenciadorFilmesSeries\obj\Debug\net6.0\GerenciadorFilmesSeries.AssemblyInfoInputs.cache
+D:\meus_projetos\desafios_cs\GerenciadorFilmesSeries\obj\Debug\net6.0\GerenciadorFilmesSeries.AssemblyInfo.cs
+D:\meus_projetos\desafios_cs\GerenciadorFilmesSeries\obj\Debug\net6.0\GerenciadorFilmesSeries.csproj.CoreCompileInputs.cache
+D:\meus_projetos\desafios_cs\GerenciadorFilmesSeries\obj\Debug\net6.0\GerenciadorFilmesSeries.dll
+D:\meus_projetos\desafios_cs\GerenciadorFilmesSeries\obj\Debug\net6.0\ref\GerenciadorFilmesSeries.dll
+D:\meus_projetos\desafios_cs\GerenciadorFilmesSeries\obj\Debug\net6.0\GerenciadorFilmesSeries.pdb
+D:\meus_projetos\desafios_cs\GerenciadorFilmesSeries\obj\Debug\net6.0\GerenciadorFilmesSeries.genruntimeconfig.cache

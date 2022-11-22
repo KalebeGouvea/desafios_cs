@@ -12,6 +12,7 @@ namespace GerenciadorFilmesSeries.Models
         public string Titulo { get; set; }
         public Serie(string nome, Tema tema, int temporada, int episodio, string titulo) : base(nome, tema)
         {
+            this.Temporada = temporada;
             this.Episodio = episodio;
             this.Titulo = titulo;
         }

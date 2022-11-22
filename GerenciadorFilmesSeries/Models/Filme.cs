@@ -9,10 +9,17 @@ namespace GerenciadorFilmesSeries.Models
     {
         public string Nome { get; set; }
         public Tema Tema { get; set; }
+        public List<Artista> Artistas { get; set; }
+
         public Filme(string nome, Tema tema)
         {
             this.Nome = nome;
             this.Tema = tema;
+        }
+
+        public void adicionaArtista(Artista artista)
+        {
+            this.Artistas.Add(artista);
         }
     }
 }

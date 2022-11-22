@@ -9,7 +9,7 @@ namespace GerenciadorFilmesSeries.Models
     {
         public string Nome { get; set; }
         public Tema Tema { get; set; }
-        public List<Artista> Artistas { get; set; }
+        public List<Artista> Artistas = new List<Artista>();
 
         public Filme(string nome, Tema tema)
         {

@@ -7,7 +7,7 @@ namespace GerenciadorFilmesSeries.Models
 {
     public class Catalogo
     {
-        public List<Filme> Filmes { get; set; }
+        public List<Filme> Filmes = new List<Filme>();
         public Catalogo adiciona(Filme filme)
         {
             this.Filmes.Add(filme);

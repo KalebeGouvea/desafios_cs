@@ -25,14 +25,14 @@ namespace GerenciadorFilmesSeries
             Console.WriteLine("Catalogo completo:");
             Console.WriteLine("Catalogo completo:");
             Console.WriteLine(catalogo);
-            Console.WriteLine("Filmes e Series com Seu Jorge:");
-            Console.WriteLine(catalogo.filtra("Jorge"));
-            Console.WriteLine("Dramas:");
-            Console.WriteLine(catalogo.filtra("Drama"));
-            Console.WriteLine("Filmes e Series com Tais Araujo e Selton Mello juntos:");
-            Console.WriteLine(catalogo.filtra("Tais").filtra("Mello"));
-            Console.WriteLine("Filmes e Series com Tais Araujo unidos com os do Selton Mello:");
-            Console.WriteLine(catalogo.filtra("Tais").uniao(catalogo.filtra("Mello")));
+            //Console.WriteLine("Filmes e Series com Seu Jorge:");
+            //Console.WriteLine(catalogo.filtra("Jorge"));
+            //Console.WriteLine("Dramas:");
+            //Console.WriteLine(catalogo.filtra("Drama"));
+            //Console.WriteLine("Filmes e Series com Tais Araujo e Selton Mello juntos:");
+            //Console.WriteLine(catalogo.filtra("Tais").filtra("Mello"));
+            //Console.WriteLine("Filmes e Series com Tais Araujo unidos com os do Selton Mello:");
+            //Console.WriteLine(catalogo.filtra("Tais").uniao(catalogo.filtra("Mello")));
         }
     }
 }

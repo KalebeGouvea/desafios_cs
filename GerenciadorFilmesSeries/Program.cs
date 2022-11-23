@@ -30,8 +30,8 @@ namespace GerenciadorFilmesSeries
             Console.WriteLine(catalogo.filtra("Drama"));
             Console.WriteLine("Filmes e Series com Tais Araujo e Selton Mello juntos:");
             Console.WriteLine(catalogo.filtra("Tais").filtra("Mello"));
-            //Console.WriteLine("Filmes e Series com Tais Araujo unidos com os do Selton Mello:");
-            //Console.WriteLine(catalogo.filtra("Tais").uniao(catalogo.filtra("Mello")));
+            Console.WriteLine("Filmes e Series com Tais Araujo unidos com os do Selton Mello:");
+            Console.WriteLine(catalogo.filtra("Tais").uniao(catalogo.filtra("Mello")));
         }
     }
 }

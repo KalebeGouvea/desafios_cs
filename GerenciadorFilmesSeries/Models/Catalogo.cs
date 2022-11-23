@@ -25,6 +25,20 @@ namespace GerenciadorFilmesSeries.Models
             return novoCatalogo;
         }
 
+        public Catalogo uniao(Catalogo catalogoAdicional)
+        {
+            Catalogo novoCatalogo = new Catalogo();
+            foreach (Filme filme in Filmes)
+            {
+                novoCatalogo.adiciona(filme);
+            }
+            foreach(Filme filme in catalogoAdicional.Filmes)
+            {
+                novoCatalogo.adiciona(filme);
+            }
+            return novoCatalogo;
+        }
+
         public override string ToString()
         {
             string result = "";

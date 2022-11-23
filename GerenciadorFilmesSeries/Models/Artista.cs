@@ -12,5 +12,12 @@ namespace GerenciadorFilmesSeries.Models
         {
             this.Nome = nome;
         }
+
+        public bool filtra(string nome)
+        {
+            if (this.Nome.Contains(nome))
+                return true;
+            return false;
+        }
     }
 }

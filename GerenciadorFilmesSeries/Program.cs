@@ -24,8 +24,8 @@ namespace GerenciadorFilmesSeries
             catalogo.adiciona(mp).adiciona(cd).adiciona(ac).adiciona(ir);
             Console.WriteLine("Catalogo completo:");
             Console.WriteLine(catalogo);
-            //Console.WriteLine("Filmes e Series com Seu Jorge:");
-            //Console.WriteLine(catalogo.filtra("Jorge"));
+            Console.WriteLine("Filmes e Series com Seu Jorge:");
+            Console.WriteLine(catalogo.filtra("Jorge"));
             //Console.WriteLine("Dramas:");
             //Console.WriteLine(catalogo.filtra("Drama"));
             //Console.WriteLine("Filmes e Series com Tais Araujo e Selton Mello juntos:");

@@ -13,6 +13,18 @@ namespace GerenciadorFilmesSeries.Models
             this.Filmes.Add(filme);
             return this;
         }
+
+        public Catalogo filtra(string nome)
+        {
+            Catalogo novoCatalogo = new Catalogo();
+            foreach (Filme filme in Filmes)
+            {
+                if(filme.filtra(nome))
+                    novoCatalogo.adiciona(filme);
+            }
+            return novoCatalogo;
+        }
+
         public override string ToString()
         {
             string result = "";

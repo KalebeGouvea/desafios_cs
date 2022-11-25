@@ -5,18 +5,14 @@ using System.Threading.Tasks;
 
 namespace ControleProcedimento.Models
 {
-    public class Exame : ISolicitacao
+    public class Exame : Procedimento
     {
-        public string Nome { get; set; }
-        public int TempoMedioMinutos { get; set; }
-
-        public Exame(string nome, int tempoMedioMinutos)
+        public Exame(string nome, int tempoMedioMinutos) : base(nome, tempoMedioMinutos)
         {
-            Nome = nome;
-            TempoMedioMinutos = tempoMedioMinutos;
+            
         }
 
-        public double Custo()
+        public override double Custo()
         {
             return TempoMedioMinutos * 20;
         }

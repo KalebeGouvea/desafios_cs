@@ -1,4 +1,5 @@
 ﻿using System;
+using ControleProcedimento.Models;
 
 namespace ControleProcedimento
 {
@@ -6,20 +7,20 @@ namespace ControleProcedimento
     {
         static void Main(string[] args)
         {
-            Solicitacao sangue = new Exame("Exame de Sangue", 20);
-            Solicitacao biopsia = new Cirurgia("Biopsia", 30);
+            ISolicitacao sangue = new Exame("Exame de Sangue", 20);
+            ISolicitacao biopsia = new Cirurgia("Biopsia", 30);
             Tratamento analiseAlergia = new Tratamento();
-            analiseAlergia.adicionaSolicitacao(new List<Solicitacao>(new []{ sangue, biopsia }));
+            analiseAlergia.adicionaSolicitacao(new List<ISolicitacao>(new []{ sangue, biopsia }));
             Console.WriteLine(analiseAlergia);
-            Solicitacao anestesia = new Medicamento("Anestesia", 1000);
-            Solicitacao septo = new Cirurgia("Correção de Septo", 120);
+            ISolicitacao anestesia = new Medicamento("Anestesia", 1000);
+            ISolicitacao septo = new Cirurgia("Correção de Septo", 120);
             Tratamento correcaoSepto = new Tratamento();
             correcaoSepto.adicionaSolicitacao(anestesia);
             correcaoSepto.adicionaSolicitacao(septo);
             Console.WriteLine(correcaoSepto);
-            Solicitacao cisto = new Cirurgia("Extração de Cisto", 60);
+            ISolicitacao cisto = new Cirurgia("Extração de Cisto", 60);
             Tratamento extracaoCisto = new Tratamento();
-            extracaoCisto.adicionaSolicitacao(new List<Solicitacao>(new []{ analiseAlergia, anestesia, cisto }));
+            extracaoCisto.adicionaSolicitacao(new List<ISolicitacao>(new []{ analiseAlergia, anestesia, cisto }));
             Console.WriteLine(extracaoCisto);
         }
     }

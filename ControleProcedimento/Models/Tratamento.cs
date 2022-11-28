@@ -11,12 +11,12 @@ namespace ControleProcedimento.Models
 
         public void adicionaSolicitacao(ISolicitacao solicitacao)
         {
-
+            Solicitacoes.Add(solicitacao);
         }
 
         public void adicionaSolicitacao(List<Object> listaSolicitacoes)
         {
-
+            Solicitacoes.Add(listaSolicitacoes);
         }
     }
 }

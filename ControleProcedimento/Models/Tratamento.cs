@@ -7,7 +7,16 @@ namespace ControleProcedimento.Models
 {
     public class Tratamento
     {
-        List<Object> Solicitacoes = new List<Object>();
+        List<Object> Solicitacoes;
+        public int Codigo { get; set; }
+        private static int quantidadeTratamentos { get; set; }
+
+        public Tratamento()
+        {
+            Solicitacoes = new List<Object>();
+            Codigo = quantidadeTratamentos;
+            quantidadeTratamentos++;
+        }
 
         public void adicionaSolicitacao(ISolicitacao solicitacao)
         {
@@ -16,7 +25,20 @@ namespace ControleProcedimento.Models
 
         public void adicionaSolicitacao(List<Object> listaSolicitacoes)
         {
-            Solicitacoes.Add(listaSolicitacoes);
+            foreach (Object solicitacao in listaSolicitacoes)
+            {
+                Solicitacoes.Add(solicitacao);
+            }
+        }
+
+        public override string ToString()
+        {
+            string result = $"Tratamento {Codigo} {{\n";
+            foreach(Object solicitacao in Solicitacoes)
+            {
+                result += solicitacao + "\n";
+            }
+            return result + "}";
         }
     }
 }

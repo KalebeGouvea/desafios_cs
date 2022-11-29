@@ -16,6 +16,11 @@ namespace ControleProcedimento.Models
             TempoMedioMinutos = tempoMedioMinutos;
         }
 
+        public override string ToString()
+        {
+            return $"{Nome}, {Custo()}";
+        }
+
         public abstract double Custo();
     }
 }

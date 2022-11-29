@@ -20,5 +20,10 @@ namespace ControleProcedimento.Models
         {
             return CustoMedicamento;
         }
+
+        public override string ToString()
+        {
+            return $"{PrincipioAtivo}, {Custo()}";
+        }
     }
 }
